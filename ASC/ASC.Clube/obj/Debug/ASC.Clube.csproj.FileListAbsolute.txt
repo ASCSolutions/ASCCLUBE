@@ -1,0 +1,5 @@
+C:\Users\PROG06\Documents\Visual Studio 2010\Projects\ASC\ASC.CLUBE\obj\Debug\ASC.Clube.csprojResolveAssemblyReference.cache
+C:\Users\PROG06\Documents\Visual Studio 2010\Projects\ASC\ASC.CLUBE\bin\Debug\ASC.CLUBE.dll
+C:\Users\PROG06\Documents\Visual Studio 2010\Projects\ASC\ASC.CLUBE\bin\Debug\ASC.CLUBE.pdb
+C:\Users\PROG06\Documents\Visual Studio 2010\Projects\ASC\ASC.CLUBE\obj\Debug\ASC.CLUBE.dll
+C:\Users\PROG06\Documents\Visual Studio 2010\Projects\ASC\ASC.CLUBE\obj\Debug\ASC.CLUBE.pdb
