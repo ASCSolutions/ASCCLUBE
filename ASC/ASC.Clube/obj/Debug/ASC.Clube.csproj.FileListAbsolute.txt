@@ -1,0 +1,7 @@
+C:\Users\PROG06\Documents\GitHub\ASC\ASC\ASC.CLUBE\bin\Debug\ASC.CLUBE.dll
+C:\Users\PROG06\Documents\GitHub\ASC\ASC\ASC.CLUBE\bin\Debug\ASC.CLUBE.pdb
+C:\Users\PROG06\Documents\GitHub\ASC\ASC\ASC.CLUBE\bin\Debug\ASC.Util.dll
+C:\Users\PROG06\Documents\GitHub\ASC\ASC\ASC.CLUBE\bin\Debug\ASC.Util.pdb
+C:\Users\PROG06\Documents\GitHub\ASC\ASC\ASC.CLUBE\obj\Debug\ASC.Clube.csprojResolveAssemblyReference.cache
+C:\Users\PROG06\Documents\GitHub\ASC\ASC\ASC.CLUBE\obj\Debug\ASC.CLUBE.dll
+C:\Users\PROG06\Documents\GitHub\ASC\ASC\ASC.CLUBE\obj\Debug\ASC.CLUBE.pdb

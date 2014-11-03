@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ASC.Clube.Model.Usuario" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <AssociationLine Name="listaHistoricoUsuario" Type="ASC.Clube.Model.HistoricoUsuario" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.188" Y="2.5" />
+        <Point X="7.188" Y="2.125" />
+        <Point X="7.188" Y="2.125" />
+        <Point X="7.188" Y="1.812" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.563" Y="0.392" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ARAAAAQQACCEAAAggAAAIAAAACgAAAAIAAAAAAEAAAA=</HashCode>
+      <FileName>Model\Usuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="listaHistoricoUsuario" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ASC.Clube.Model.Associado" Collapsed="true">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <AssociationLine Name="listaDependente" Type="ASC.Clube.Model.Dependente" FixedFromPoint="true">
+      <Path>
+        <Point X="5.562" Y="4.691" />
+        <Point X="5.562" Y="5.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.433" Y="0.084" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="listaConvite" Type="ASC.Clube.Model.Convite" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="4.344" />
+        <Point X="3.688" Y="4.344" />
+        <Point X="3.688" Y="5.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AGgeIAAAliAAAIYCAgggQkZAAEhQCAAIAIAIUAToClA=</HashCode>
+      <FileName>Model\Associado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="listaDependente" />
+      <Field Name="listaConvite" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ASC.Clube.Model.Administrador" Collapsed="true">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAAACAAACAAAAAgAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Model\Administrador.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="setor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASC.Clube.Model.Profissao" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Model\Profissao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.Localidade" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAgAAAAAAAAEAAAABACAAAAAgAAAAAAQAAAAEgA=</HashCode>
+      <FileName>Model\Localidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.Dependente" Collapsed="true">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARCCgAAAgCAAAIAgAgAEAAIABAAAAAAAAAAAQAEQgsA=</HashCode>
+      <FileName>Model\Depende.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.Convite" Collapsed="true">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <AssociationLine Name="visitante" Type="ASC.Clube.Model.Visitante">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.253" Y="0.187" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAADgAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA4A=</HashCode>
+      <FileName>Model\Convite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="visitante" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASC.Clube.Model.Visitante" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAGAAgA=</HashCode>
+      <FileName>Model\Visitante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.HistoricoUsuario" Collapsed="true">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="usuario" Type="ASC.Clube.Model.Usuario" FixedFromPoint="true">
+      <Path>
+        <Point X="7.062" Y="1.812" />
+        <Point X="7.062" Y="2.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.221" Y="0.377" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAgAAAQIAAAEAAAAAgA=</HashCode>
+      <FileName>Model\HistoricoUsuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASC.Clube.Model.Setor" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACABAAQCAQAAAgAAAAAAAAAAAgAgAAAAAAAAEAAgA=</HashCode>
+      <FileName>Model\Setor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.Mensagem" Collapsed="true">
+    <Position X="10.25" Y="5.25" Width="1.5" />
+    <AssociationLine Name="listaMensagemDet" Type="ASC.Clube.Model.MensagemDet">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.444" Y="0.087" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAKgAAACAABAAAAAAAAAAAICAAACAgAAAAAAAEAAoA=</HashCode>
+      <FileName>Model\Mensagem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mensagemStatus" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="listaMensagemDet" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ASC.Clube.Model.Foto" Collapsed="true">
+    <Position X="1.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAIAAAACAAAAAAAAAAAAAAAAAAAAQAAAAEoA=</HashCode>
+      <FileName>Model\Foto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.MensagemStatus" Collapsed="true">
+    <Position X="13.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACABAAAgAQAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Model\MensagemStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.Campo" Collapsed="true">
+    <Position X="4.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAABAAAAAQAAAAAAAAAAAgAAAAIAAAEAAgA=</HashCode>
+      <FileName>Model\Campos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.Permissao" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Model\Permissao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.Arrecadacao" Collapsed="true">
+    <Position X="3" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACiAAAAAAAAAAAAAAAAAAEAAAABAJAAAQCwACEAog=</HashCode>
+      <FileName>Model\Arrecadacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.Config" Collapsed="true">
+    <Position X="8.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAQAAAAAAAAIAAAACAACAAAAAkQAAABEgA=</HashCode>
+      <FileName>Model\Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.Classificacao" Collapsed="true">
+    <Position X="6.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Model\Classificacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.MensagemDet" Collapsed="true">
+    <Position X="10.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAAAAAAEAAAABAAAAAAAAAAAAAEAAAABAoA=</HashCode>
+      <FileName>Model\MensagemDet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASC.Clube.Model.AdministradorPermissao" Collapsed="true">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <AssociationLine Name="administrador" Type="ASC.Clube.Model.Administrador" FixedToPoint="true">
+      <Path>
+        <Point X="8.188" Y="5.25" />
+        <Point X="8.188" Y="4.691" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.336" Y="0.152" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAEAAAAAAgA=</HashCode>
+      <FileName>Model\AdministradorPermissao.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="administrador" />
+      <Field Name="permissao" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASC.Clube.Cidade" Collapsed="true">
+    <Position X="13.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgg=</HashCode>
+      <FileName>Cidade.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="estado" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASC.Clube.Estado" Collapsed="true">
+    <Position X="13.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgA=</HashCode>
+      <FileName>Estado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ASC.Clube.Model.EstadoCivil" Collapsed="true">
+    <Position X="13.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Model\EstadoCivil.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ASC.Clube.Model.Escolaridade" Collapsed="true">
+    <Position X="13.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Escolaridade.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ASC.Clube.Model.Prioridade" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAMAAAA=</HashCode>
+      <FileName>Model\Prioridade.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ASC.Clube.Model.FotoStatus" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Model\FotoStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
