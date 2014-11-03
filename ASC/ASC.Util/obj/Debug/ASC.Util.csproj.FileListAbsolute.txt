@@ -1,4 +1,0 @@
-C:\Users\PROG06\Documents\Visual Studio 2010\Projects\ASC\ASC.Util\bin\Debug\ASC.Util.dll
-C:\Users\PROG06\Documents\Visual Studio 2010\Projects\ASC\ASC.Util\bin\Debug\ASC.Util.pdb
-C:\Users\PROG06\Documents\Visual Studio 2010\Projects\ASC\ASC.Util\obj\Debug\ASC.Util.dll
-C:\Users\PROG06\Documents\Visual Studio 2010\Projects\ASC\ASC.Util\obj\Debug\ASC.Util.pdb
