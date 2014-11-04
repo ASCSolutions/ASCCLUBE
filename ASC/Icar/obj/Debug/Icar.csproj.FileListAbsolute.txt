@@ -7,3 +7,12 @@ C:\Users\PROG06\Documents\GitHub\ASC\ASC\Icar\bin\ASC.Util.pdb
 C:\Users\PROG06\Documents\GitHub\ASC\ASC\Icar\obj\Debug\Icar.csprojResolveAssemblyReference.cache
 C:\Users\PROG06\Documents\GitHub\ASC\ASC\Icar\obj\Debug\Icar.dll
 C:\Users\PROG06\Documents\GitHub\ASC\ASC\Icar\obj\Debug\Icar.pdb
+C:\Users\PROG06\Documents\ASCCLUBE\ASC\Icar\bin\Icar.dll
+C:\Users\PROG06\Documents\ASCCLUBE\ASC\Icar\bin\Icar.pdb
+C:\Users\PROG06\Documents\ASCCLUBE\ASC\Icar\bin\ASC.CLUBE.dll
+C:\Users\PROG06\Documents\ASCCLUBE\ASC\Icar\bin\ASC.Util.dll
+C:\Users\PROG06\Documents\ASCCLUBE\ASC\Icar\bin\ASC.CLUBE.pdb
+C:\Users\PROG06\Documents\ASCCLUBE\ASC\Icar\bin\ASC.Util.pdb
+C:\Users\PROG06\Documents\ASCCLUBE\ASC\Icar\obj\Debug\Icar.csprojResolveAssemblyReference.cache
+C:\Users\PROG06\Documents\ASCCLUBE\ASC\Icar\obj\Debug\Icar.dll
+C:\Users\PROG06\Documents\ASCCLUBE\ASC\Icar\obj\Debug\Icar.pdb

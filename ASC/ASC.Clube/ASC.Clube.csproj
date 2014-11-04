@@ -77,7 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Control\Business\" />
-    <Folder Include="Control\Conexao\" />
     <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>

@@ -7,8 +7,24 @@ namespace ASC.Clube.Model
 {
     public class Estado
     {
+        #region Atributos
+
         private int id;
         private string nome;
+
+        #endregion
+
+        #region Construtores
+
+        public Estado() { }
+
+        #endregion
+
+        #region Metodos
+
+        #endregion
+
+        #region Getters&Setters
 
         public int Id
         {
@@ -20,5 +36,7 @@ namespace ASC.Clube.Model
             get { return nome; }
             set { nome = value; }
         }
+
+        #endregion
     }
 }

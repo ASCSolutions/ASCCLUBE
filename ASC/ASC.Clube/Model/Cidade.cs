@@ -13,8 +13,6 @@ namespace ASC.Clube.Model
         private string nome;
         private Estado estado;
 
-        
-
         #endregion
 
         #region Construtores

@@ -131,7 +131,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ASC.Clube.Model.Mensagem" Collapsed="true">
-    <Position X="10.25" Y="5.25" Width="1.5" />
+    <Position X="10.5" Y="5.25" Width="1.5" />
     <AssociationLine Name="listaMensagemDet" Type="ASC.Clube.Model.MensagemDet">
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="-1.444" Y="0.087" />
@@ -149,21 +149,21 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="ASC.Clube.Model.Foto" Collapsed="true">
-    <Position X="1.25" Y="8.25" Width="1.5" />
+    <Position X="3.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACgAAAAIAAAACAAAAAAAAAAAAAAAAAAAAQAAAAEoA=</HashCode>
       <FileName>Model\Foto.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASC.Clube.Model.MensagemStatus" Collapsed="true">
-    <Position X="13.25" Y="5.25" Width="1.5" />
+    <Position X="13.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAACABAAAgAQAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>Model\MensagemStatus.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASC.Clube.Model.Campo" Collapsed="true">
-    <Position X="4.75" Y="8.25" Width="1.5" />
+    <Position X="5.75" Y="9" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQACAAAAAAABAAAAAQAAAAAAAAAAAgAAAAIAAAEAAgA=</HashCode>
       <FileName>Model\Campos.cs</FileName>
@@ -177,28 +177,28 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ASC.Clube.Model.Arrecadacao" Collapsed="true">
-    <Position X="3" Y="8.25" Width="1.5" />
+    <Position X="7.75" Y="9" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIACiAAAAAAAAAAAAAAAAAAEAAAABAJAAAQCwACEAog=</HashCode>
       <FileName>Model\Arrecadacao.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASC.Clube.Model.Config" Collapsed="true">
-    <Position X="8.25" Y="8.25" Width="1.5" />
+    <Position X="7.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACABAAAAAQAAAAAAAAIAAAACAACAAAAAkQAAABEgA=</HashCode>
       <FileName>Model\Config.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASC.Clube.Model.Classificacao" Collapsed="true">
-    <Position X="6.5" Y="8.25" Width="1.5" />
+    <Position X="5.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>Model\Classificacao.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASC.Clube.Model.MensagemDet" Collapsed="true">
-    <Position X="10.25" Y="6.75" Width="1.5" />
+    <Position X="10.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACgAAAAAAAAAAEAAAABAAAAAAAAAAAAAEAAAABAoA=</HashCode>
       <FileName>Model\MensagemDet.cs</FileName>
@@ -224,21 +224,21 @@
       <Field Name="permissao" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="ASC.Clube.Cidade" Collapsed="true">
-    <Position X="13.25" Y="8.25" Width="1.5" />
+  <Class Name="ASC.Clube.Model.Cidade" Collapsed="true">
+    <Position X="13.5" Y="9" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgg=</HashCode>
-      <FileName>Cidade.cs</FileName>
+      <FileName>Model\Cidade.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Field Name="estado" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="ASC.Clube.Estado" Collapsed="true">
-    <Position X="13.25" Y="7.25" Width="1.5" />
+  <Class Name="ASC.Clube.Model.Estado" Collapsed="true">
+    <Position X="13.5" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgA=</HashCode>
-      <FileName>Estado.cs</FileName>
+      <FileName>Model\Estado.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="ASC.Clube.Model.EstadoCivil" Collapsed="true">
