@@ -19,9 +19,11 @@ namespace Icar
             List<Localidade> listaLocalidade = localidadeDAO.ListarTodos();
             Localidade localidade2 = localidadeDAO.ProcurarPorId(1);
 
-            CidadeDAO cidadeDAO = new CidadeDAO();
-            List<Cidade> cidades = cidadeDAO.ListarTodos();
-            Cidade cidade2 = cidadeDAO.ProcurarPorId(1);
+            LocalidadeDAO localidadeDAO2 = new LocalidadeDAO(false);
+            List<Localidade> listaLocalidade2 = localidadeDAO2.ListarTodos();
+            Localidade localidade22 = localidadeDAO2.ProcurarPorId(1);
+
+            List<Localidade> localidades = localidadeDAO.ListarPorWhere();
 
             try
             {

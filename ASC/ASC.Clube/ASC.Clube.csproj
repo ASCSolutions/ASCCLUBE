@@ -41,8 +41,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Cidade.cs" />
-    <Compile Include="Control\DAO\AssociadoDAO.cs" />
-    <Compile Include="Control\DAO\CidadeDAO.cs" />
     <Compile Include="Control\DAO\LocalidadeDAO.cs" />
     <Compile Include="Model\Estado.cs" />
     <Compile Include="Model\Administrador.cs" />
