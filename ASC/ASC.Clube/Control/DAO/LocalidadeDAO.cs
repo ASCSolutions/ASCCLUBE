@@ -58,10 +58,9 @@ namespace ASC.Clube.Control.DAO
             this.Conexao = new ConexaoASC();
             objetoCompleto = true;
         }
-        public LocalidadeDAO(bool objCompleto)
+        public LocalidadeDAO(bool objCompleto) : this()
         {
-            this.Conexao = new ConexaoASC();
-            this.objetoCompleto = objCompleto == true ? true : false;
+            this.objetoCompleto = objCompleto;
         }
 
         #endregion
@@ -147,7 +146,8 @@ namespace ASC.Clube.Control.DAO
             //executa o comando e retorna o resultado da Query
             OdbcDataReader leitor = comando.ExecuteReader();
 
-            return FabricarObjetos(leitor)[0];
+            //acessar o primeiro objeto da lista
+            return FabricarObjetos(leitor).FirstOrDefault();
         }
 
         /// <summary>
@@ -169,7 +169,7 @@ namespace ASC.Clube.Control.DAO
         }
 
         /// <summary>
-        /// lista registros de localidade na tabela localidades dependendo de um argumento para fazer uma pesquisa específica
+        /// lista registros de localidade na tabela localidades dependendo de um argumento para fazer uma pesquisa específica(SQL)
         /// </summary>
         public List<Localidade> ListarPorWhere(string where)
         {
@@ -184,7 +184,6 @@ namespace ASC.Clube.Control.DAO
 
             return FabricarObjetos(leitor);
         }
-
 
         /// <summary>
         /// Monta o objeto completo que vai ser retornado nos metodos publicos
@@ -229,6 +228,9 @@ namespace ASC.Clube.Control.DAO
         //    return localidade;
         //}
 
+        /// <summary>
+        /// Monta todos os objetos(completo) e retorna uma lista
+        /// </summary>
         public List<Localidade> MontarObjetosCompleto(OdbcDataReader leitor)
         {
             DataTable dt = new DataTable("localidades");
@@ -255,6 +257,9 @@ namespace ASC.Clube.Control.DAO
             ).ToList();
         }
 
+        /// <summary>
+        /// Monta todos os objetos(parcial) e retorna uma lista
+        /// </summary>
         public List<Localidade> MontarObjetosParcial(OdbcDataReader leitor)
         {
             DataTable dt = new DataTable("localidades");
@@ -305,21 +310,23 @@ namespace ASC.Clube.Control.DAO
         //        return null;
         //}
 
+        /// <summary>
+        /// Fabrica os objetos optando pela construção completa do objeto ou parcial
+        /// </summary>
         public List<Localidade> FabricarObjetos(OdbcDataReader leitor)
         {
             List<Localidade> listaLocalidade = new List<Localidade>();
 
-            //A cada linha ele monta um objeto
             if (this.ObjetoCompleto)
                 listaLocalidade = MontarObjetosCompleto(leitor);
             else
                 listaLocalidade = MontarObjetosParcial(leitor);
 
-                //Se a lista estiver diferente de vazia retorna a lista
-                if (listaLocalidade.Count != 0)
-                    return listaLocalidade;
-                else
-                    return null;
+            //Se a lista estiver diferente de vazia retorna a lista
+            if (listaLocalidade.Count != 0)
+                return listaLocalidade;
+            else
+                return null;
         }
 
         /// <summary>

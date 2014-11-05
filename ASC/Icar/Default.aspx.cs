@@ -22,8 +22,9 @@ namespace Icar
             LocalidadeDAO localidadeDAO2 = new LocalidadeDAO(false);
             List<Localidade> listaLocalidade2 = localidadeDAO2.ListarTodos();
             Localidade localidade22 = localidadeDAO2.ProcurarPorId(1);
+            List<Localidade> listaLocalidade3 = localidadeDAO2.ListarPorWhere("l.BAIRRO = 'Floresta'");
 
-            List<Localidade> localidades = localidadeDAO.ListarPorWhere();
+
 
             try
             {

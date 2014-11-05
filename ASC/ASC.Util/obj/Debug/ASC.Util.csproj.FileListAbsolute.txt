@@ -4,5 +4,6 @@ C:\Users\PROG06\Documents\GitHub\ASC\ASC\ASC.Util\obj\Debug\ASC.Util.dll
 C:\Users\PROG06\Documents\GitHub\ASC\ASC\ASC.Util\obj\Debug\ASC.Util.pdb
 C:\Users\PROG06\Documents\ASCCLUBE\ASC\ASC.Util\bin\Debug\ASC.Util.dll
 C:\Users\PROG06\Documents\ASCCLUBE\ASC\ASC.Util\bin\Debug\ASC.Util.pdb
+C:\Users\PROG06\Documents\ASCCLUBE\ASC\ASC.Util\obj\Debug\ASC.Util.csprojResolveAssemblyReference.cache
 C:\Users\PROG06\Documents\ASCCLUBE\ASC\ASC.Util\obj\Debug\ASC.Util.dll
 C:\Users\PROG06\Documents\ASCCLUBE\ASC\ASC.Util\obj\Debug\ASC.Util.pdb
